@@ -15,7 +15,7 @@ $(document).ready(function(){
 		$(this).attr('class','aktif');
  
 		// buat variabel isi, untuk menampung identitas div isi
-		var isi = '\'.isi div[name="' + this.name + '"]\'';
+		var isi = '.isi div[name="' + this.name + '"]';
  
 		// sembunyikan semua div isi
 		$('.isi div').hide();
